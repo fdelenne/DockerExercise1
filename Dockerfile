@@ -10,5 +10,5 @@ RUN apt-get install -y python3
 
 RUN python3 app.py
 RUN cat helloworld.html
-RUN cp helloworld.html /usr/local/apache2/htdocs/helloworld.html
+RUN cp helloworld.html /usr/local/apache2/htdocs/index.html
 
